@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    >
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Search bar airbnb</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div
+    class="container"
+    >  
+      <form
+      class="search-form search-form--big"
+      method="get"
+      action="/"
+      data-qa="big"
+    >
+        <img
+    class="icon icon--big"
+    src="./images/Search.svg"
+    alt="logo"
+    >
+        <label 
+    for="search-input"
+    class="search-input--big"
+    >
+          <input
+        class="input input--big"
+        type="text"
+        name="search"
+        id="search-input"
+        placeholder="Try &quot;Los-Angeles&quot"
+        data-qa="keypress"
+      >
+        </label>
+      </form>
+      <form
+      class="search-form search-form--small"
+      method="get"
+      action="/"
+      data-qa="small"
+      >
+        <img
+    class="icon icon--small"
+    src="./images/Search.svg"
+    alt="logo-small"
+        >
+        <label 
+        for="search-input--small"
+        class="search-input--small---label"
+        >
+          <input
+        class="input input--small"
+        type="text"
+        name="search-small"
+        placeholder="Try &quot;Los-Angeles&quot"
+        id="search-input--small"
+          >
+        </label>
+      </form>
+    </div>
+    <footer class="footer">
+      &#169; Yevhenii Stanchenko.
+    </footer>
+  </body>
+</html>
